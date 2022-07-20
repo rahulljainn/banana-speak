@@ -1,19 +1,21 @@
 .headingline{
     text-align: center;
-    color:yellow;
-    background-color: black;
+    color:black;
+    background-color:yellow ;
     padding: 3rem 3rem;
     border-radius: 0.5rem;
 }
 .button-style{
-    color: yellow;
-    background-color: black;
+    color: black;
+    background-color:yellow ;
     font-style: italic;
     font-weight: bold;
+    cursor: pointer;
+    
 }
 .foot-style{
-    background-color: black;
-    color:yellow;
+    background-color:yellow;
+    color:black;
     padding: 0.5rem 6rem;
     border-radius: 0.5rem;
     
@@ -21,6 +23,6 @@
 }
 .abt-align{
     text-align: center;
-    color: white;
+    color: black;
     padding: 0.5rem;
 }

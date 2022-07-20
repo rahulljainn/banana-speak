@@ -9,8 +9,9 @@ function getTranslationURL(text){
         return serverURL+"?"+"text"+text
     }
  
+ 
 function clickHandler() {
-    var inputText = txtinput . value ;
+    var inputText = txtinput.value;
 
 fetch(getTranslationURL (inputText))
     .then(response=>response.json())
