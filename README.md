@@ -1,2 +1,2 @@
 # banana-speak
-intro java script
+This app allows you to translate your text to minion language.
