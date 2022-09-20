@@ -1,6 +1,7 @@
 var btntranslate =document.querySelector("#btn-translate");
 var txtinput=document.querySelector("#txt-Input");
 var outputdiv=document.querySelector("#output");
+var errorbox=document.querySelector("#outputbox")
 
 
 var serverURL=	"https://api.funtranslations.com/translate/minion.json"
@@ -11,7 +12,7 @@ function getTranslationURL(input){
     
 function errorhandler(error){
  console.log("error occured",error);
- alert("something wrong with server! please try again later")
+ errorbox.innerText="something wrong with server! please try again later"
 
 }
   
